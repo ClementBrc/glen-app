@@ -19,7 +19,7 @@ public class ListerChocolatineOption implements OptionMenu {
 	public void executer() {
 		
 		List<Chocolatine> lister = chocolatineService.lister();
-		
+			
 	}
 
 }

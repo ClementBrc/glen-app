@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 @Entity
 public class Chocolatine {
 
+	private int id;
 	@Column(name="nomChoc")
 	private String nom;
 	
